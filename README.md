@@ -1,4 +1,4 @@
-# <img src="assets/gsoc-icon.svg" height="30"> GSoC 2026 Blog: openSUSE <img src="assets/opensuse-icon.svg" height="30">
+# <img src="assets/gsoc-icon.svg" height="30"> GSoC 2026 Blog: openSUSE <img src="assets/opensuse-icon.svg" height="40">
 
 This repository contains my personal blog for **Google Summer of Code 2026**, documenting my work with the **openSUSE Project**.
 
