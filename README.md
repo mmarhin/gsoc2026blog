@@ -1,20 +1,13 @@
-# GSoC 2026 Blog: openSUSE 🦎
+# GSoC 2026 Blog: openSUSE
 
-This is the source code for my personal blog documenting my journey in the **Google Summer of Code (GSoC) 2026** while contributing to the openSUSE Project.
+This repository contains my personal blog for **Google Summer of Code 2026**, documenting my work with the **openSUSE Project**.
 
-![GSoC Logo](assets/gsoc-icon.svg)
+<img src="assets/gsoc-icon.svg" height="40"> <img src="assets/opensuse-icon.svg" height="40">
 
 ### Overview
-This blog is built using [Jekyll](https://jekyllrb.com/) and features:
-- Weekly progress on the *Enhancing openSUSE Git Workflow* project.
-- Technical developments focused on the `obs-status-service`.
-- Gitea bot automations and integrations.
+The blog focuses on the development of the *Enhancing openSUSE Git Workflow* project, specifically:
+- Improvements and interactive visualizations for `obs-status-service`.
+- Implementation of a Gitea bot for build automation in Pull Requests.
+- Experimental AI assistant for build log analysis using Log Detective.
 
-### Local Development
-To run this blog locally, ensure you have Ruby and Bundler installed, then run:
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-Then visit `http://127.0.0.1:4000/`.
+Weekly updates and technical deep dives will be posted here as the program progresses.
