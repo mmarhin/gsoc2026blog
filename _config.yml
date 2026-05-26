@@ -3,8 +3,8 @@ title: Mario's Blog - GSoC 2026
 description: >- # this means to ignore newlines until "baseurl:"
   Exclusive blog documenting my journey through GSoC 2026 with openSUSE.
   I will be sharing my progress, developments, and everything I learn along the way.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/gsoc2026blog" # the subpath of your site, e.g. /blog
+url: "https://mmarhin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mmarhin
 linkedin_username: mmarhin
 
