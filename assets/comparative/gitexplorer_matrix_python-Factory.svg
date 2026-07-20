@@ -1,0 +1,1881 @@
+<svg version="2.0" overflow="auto" xmlns="http://www.w3.org/2000/svg" width="545" height="685">
+    <title>Build Status Matrix</title>
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+            @keyframes pulse {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0.6; }
+            }
+            .building-cell { animation: pulse 2s ease-in-out infinite; }
+            .not-final-indicator { animation: pulse 1.5s ease-in-out infinite; }
+            .blocked-icon { filter: grayscale(100%) brightness(0); }
+            ]]>
+        </style>
+    </defs>
+    <rect width="100%" height="100%" fill="#ffffff"/>
+
+    <!-- Status Row -->
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=blocked,fail,inactive,success,wip#monitor" target="_blank" rel="noopener">
+        <rect x="0" y="0" width="545" height="25" fill="#007ec6"/>
+        <text x="272.5" y="18.5" font-family="monospace" font-size="14" fill="#000000" text-anchor="middle" font-weight="bold" class="not-final-indicator">NOT FINAL</text>
+    </a>
+
+    <!-- Header -->
+    <rect x="0" y="25" width="545" height="60" fill="#343a40"/>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=blocked,fail,inactive,success,wip#monitor" target="_blank" rel="noopener">
+        <text x="5" y="41" font-family="monospace" font-size="12" fill="#ffffff" font-weight="bold">Package</text>
+        <text id="last-updated" x="5" y="53" font-family="monospace" font-size="8" fill="#adb5bd">Updated: 13:07:13</text>
+    </a>
+    <g>
+        <title>15.6 / x86_64</title>
+        <text x="245.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">15.6</text>
+        <text x="245.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">x86_64</text>
+    </g>
+    <g>
+        <title>16.0 / x86_64</title>
+        <text x="285.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">16.0</text>
+        <text x="285.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">x86_64</text>
+    </g>
+    <g>
+        <title>openSUSE_Factory_ARM / aarch64</title>
+        <text x="325.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">openSUSE_…</text>
+        <text x="325.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">aarch64</text>
+    </g>
+    <g>
+        <title>openSUSE_Factory_ARM / armv7l</title>
+        <text x="365.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">openSUSE_…</text>
+        <text x="365.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">armv7l</text>
+    </g>
+    <g>
+        <title>openSUSE_Factory_PowerPC / ppc64le</title>
+        <text x="405.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">openSUSE_…</text>
+        <text x="405.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">ppc64le</text>
+    </g>
+    <g>
+        <title>openSUSE_Factory_zSystems / s390x</title>
+        <text x="445.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">openSUSE_…</text>
+        <text x="445.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">s390x</text>
+    </g>
+    <g>
+        <title>openSUSE_Tumbleweed / i586</title>
+        <text x="485.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">openSUSE_…</text>
+        <text x="485.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">i586</text>
+    </g>
+    <g>
+        <title>openSUSE_Tumbleweed / x86_64</title>
+        <text x="525.0" y="50" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">openSUSE_…</text>
+        <text x="525.0" y="65" font-family="monospace" font-size="9" fill="#ffffff" text-anchor="middle">x86_64</text>
+    </g>
+    <line x1="0" y1="85" x2="545" y2="85" stroke="#dee2e6" stroke-width="1"/>
+    <rect x="0" y="85" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/patterns-devel-python" target="_blank" rel="noopener">
+        <title>patterns-devel-python</title>
+        <text x="5" y="99.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">patterns-devel-python</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/patterns-devel-python/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="225" y="85" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/patterns-devel-python/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="85" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/patterns-devel-python/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="85" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/patterns-devel-python/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="85" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/patterns-devel-python/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="85" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/patterns-devel-python/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::patterns-devel-python-1fc9fcf4c2031b8dd402dbc567871354</title>
+        <rect x="425" y="85" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 95.0" to="360 445.0 95.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/patterns-devel-python/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="85" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/patterns-devel-python/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="85" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="99.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="105" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/pypy3" target="_blank" rel="noopener">
+        <title>pypy3</title>
+        <text x="5" y="119.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">pypy3</text>
+    </a>
+    <g>
+        <title>excluded</title>
+        <rect x="225" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded</title>
+        <rect x="265" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded</title>
+        <rect x="305" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded</title>
+        <rect x="345" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded</title>
+        <rect x="385" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded</title>
+        <rect x="425" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded</title>
+        <rect x="465" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded</title>
+        <rect x="505" y="105" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="119.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <rect x="0" y="125" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python-rpm-macros" target="_blank" rel="noopener">
+        <title>python-rpm-macros</title>
+        <text x="5" y="139.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python-rpm-macros</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python-rpm-macros/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="225" y="125" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python-rpm-macros/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="125" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python-rpm-macros/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="125" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python-rpm-macros/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="125" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python-rpm-macros/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="125" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python-rpm-macros/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python-rpm-macros-f9594b1c8a505747863bd149ad4bb6ee</title>
+        <rect x="425" y="125" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 135.0" to="360 445.0 135.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python-rpm-macros/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="125" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python-rpm-macros/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="125" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="139.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="145" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python27" target="_blank" rel="noopener">
+        <title>python27</title>
+        <text x="5" y="159.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python27</text>
+    </a>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="225" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="265" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="305" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="345" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="385" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="425" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="465" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <g>
+        <title>excluded: package blacklist</title>
+        <rect x="505" y="145" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="159.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <rect x="0" y="165" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python3" target="_blank" rel="noopener">
+        <title>python3</title>
+        <text x="5" y="179.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python3</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python3/unresolvable" target="_blank" rel="noopener">
+        <title>unresolvable: nothing provides python313, nothing provides python313-base, nothing provides python313-devel</title>
+        <rect x="225" y="165" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">?</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python3/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="165" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python3/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="165" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python3/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python3-40f2e88ca282db7fa6a465af95ca810b</title>
+        <rect x="345" y="165" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 175.0" to="360 365.0 175.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python3/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="165" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python3/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python3-40f2e88ca282db7fa6a465af95ca810b</title>
+        <rect x="425" y="165" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 175.0" to="360 445.0 175.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python3/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="165" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python3/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="165" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="179.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="185" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python310" target="_blank" rel="noopener">
+        <title>python310</title>
+        <text x="5" y="199.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python310</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python310/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="185" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python310/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="185" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python310/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="185" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python310/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python310-667da2c31e0931cde794f31948dfb507</title>
+        <rect x="345" y="185" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 195.0" to="360 365.0 195.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python310/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="185" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="185" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python310/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="185" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python310/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="185" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="199.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="205" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python310" target="_blank" rel="noopener">
+        <title>python310:base</title>
+        <text x="5" y="219.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python310:base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python310%3Abase/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="205" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python310%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="205" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python310%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="205" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python310%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="205" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python310%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="205" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python310%3Abase/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python310:base-667da2c31e0931cde794f31948dfb507</title>
+        <rect x="425" y="205" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 215.0" to="360 445.0 215.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python310%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="205" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python310%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="205" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="219.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="225" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python310" target="_blank" rel="noopener">
+        <title>python310:doc</title>
+        <text x="5" y="239.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python310:doc</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python310%3Adoc/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="225" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python310%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="225" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python310%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="225" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python310%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python310:doc-667da2c31e0931cde794f31948dfb507</title>
+        <rect x="345" y="225" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 235.0" to="360 365.0 235.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python310%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="225" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python310%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python310:doc-667da2c31e0931cde794f31948dfb507</title>
+        <rect x="425" y="225" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 235.0" to="360 445.0 235.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python310%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="225" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python310%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="225" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="239.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="245" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python311" target="_blank" rel="noopener">
+        <title>python311</title>
+        <text x="5" y="259.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python311</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python311/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="245" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python311/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="245" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python311/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="245" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python311/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="245" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python311/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="245" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="245" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python311/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="245" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python311/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="245" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="259.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="265" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python311" target="_blank" rel="noopener">
+        <title>python311:base</title>
+        <text x="5" y="279.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python311:base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python311%3Abase/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="265" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python311%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="265" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python311%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="265" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python311%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="265" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python311%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="265" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python311%3Abase/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python311:base-52425aa2d283f6ceae4341597a23db0b</title>
+        <rect x="425" y="265" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 275.0" to="360 445.0 275.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python311%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="265" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python311%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="265" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="279.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="285" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python311" target="_blank" rel="noopener">
+        <title>python311:doc</title>
+        <text x="5" y="299.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python311:doc</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python311%3Adoc/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="285" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python311%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="285" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python311%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="285" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python311%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python311:doc-52425aa2d283f6ceae4341597a23db0b</title>
+        <rect x="345" y="285" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 295.0" to="360 365.0 295.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python311%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="285" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python311%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python311:doc-52425aa2d283f6ceae4341597a23db0b</title>
+        <rect x="425" y="285" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 295.0" to="360 445.0 295.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python311%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="285" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python311%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="285" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="299.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="305" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python312" target="_blank" rel="noopener">
+        <title>python312</title>
+        <text x="5" y="319.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python312</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python312/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="305" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python312/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="305" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python312/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="305" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python312/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="305" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python312/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="305" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="305" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python312/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="305" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python312/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="305" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="319.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="325" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python312" target="_blank" rel="noopener">
+        <title>python312:base</title>
+        <text x="5" y="339.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python312:base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python312%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="225" y="325" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python312%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="325" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python312%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="325" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python312%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="325" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python312%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="325" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python312%3Abase/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python312:base-0815b91593cbec5e69c1427bcfd14b97</title>
+        <rect x="425" y="325" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 335.0" to="360 445.0 335.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python312%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="325" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python312%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="325" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="339.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="345" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python312" target="_blank" rel="noopener">
+        <title>python312:doc</title>
+        <text x="5" y="359.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python312:doc</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python312%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="225" y="345" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python312%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="345" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python312%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="345" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python312%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python312:doc-0815b91593cbec5e69c1427bcfd14b97</title>
+        <rect x="345" y="345" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 355.0" to="360 365.0 355.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python312%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="345" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python312%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python312:doc-0815b91593cbec5e69c1427bcfd14b97</title>
+        <rect x="425" y="345" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 355.0" to="360 445.0 355.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python312%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="345" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python312%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="345" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="359.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="365" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python313" target="_blank" rel="noopener">
+        <title>python313</title>
+        <text x="5" y="379.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python313</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python313/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="365" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python313/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="365" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python313/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="365" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python313/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="365" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python313/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="365" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="365" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python313/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="365" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python313/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="365" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="379.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="385" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python313" target="_blank" rel="noopener">
+        <title>python313:base</title>
+        <text x="5" y="399.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python313:base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python313%3Abase/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="385" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python313%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="385" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python313%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="385" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python313%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="385" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python313%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="385" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python-rpm-macros</title>
+        <rect x="425" y="385" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python313%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="385" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python313%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="385" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="399.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="405" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python313" target="_blank" rel="noopener">
+        <title>python313:doc</title>
+        <text x="5" y="419.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python313:doc</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python313%3Adoc/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="405" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python313%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="405" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python313%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="405" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python313%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python313:doc-488b8b242f508e444cd24052de720b02</title>
+        <rect x="345" y="405" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 415.0" to="360 365.0 415.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python313%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="405" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python313%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python313:doc-488b8b242f508e444cd24052de720b02</title>
+        <rect x="425" y="405" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 415.0" to="360 445.0 415.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python313%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="405" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python313%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="405" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="419.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="425" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python313" target="_blank" rel="noopener">
+        <title>python313:nogil</title>
+        <text x="5" y="439.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python313:nogil</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python313%3Anogil/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="425" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python313%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="425" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>excluded</title>
+        <rect x="305" y="425" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python313%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="425" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python313%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="425" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="425" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python313%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="425" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python313%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="425" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="439.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="445" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python313" target="_blank" rel="noopener">
+        <title>python313:nogil-base</title>
+        <text x="5" y="459.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python313:nogil-base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python313%3Anogil-base/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="445" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python313%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="445" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>excluded</title>
+        <rect x="305" y="445" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python313%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="445" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python313%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="445" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="445" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python313%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="445" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python313%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="445" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="459.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="465" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python314" target="_blank" rel="noopener">
+        <title>python314</title>
+        <text x="5" y="479.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python314</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python314/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="465" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python314/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="465" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python314/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="465" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python314/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python314-73f53283968c4183335d75368086ce75</title>
+        <rect x="345" y="465" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 475.0" to="360 365.0 475.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python314/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="465" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python314/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python314-73f53283968c4183335d75368086ce75</title>
+        <rect x="425" y="465" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 475.0" to="360 445.0 475.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python314/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="465" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python314/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="465" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="479.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="485" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python314" target="_blank" rel="noopener">
+        <title>python314:base</title>
+        <text x="5" y="499.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python314:base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python314%3Abase/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="485" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python314%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="485" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python314%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="485" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python314%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="485" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python314%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="485" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python314%3Abase/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python314:base-73f53283968c4183335d75368086ce75</title>
+        <rect x="425" y="485" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 495.0" to="360 445.0 495.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python314%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="485" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python314%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="485" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="499.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="505" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python314" target="_blank" rel="noopener">
+        <title>python314:doc</title>
+        <text x="5" y="519.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python314:doc</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python314%3Adoc/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="505" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python314%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="505" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python314%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="505" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python314%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python314:doc-73f53283968c4183335d75368086ce75</title>
+        <rect x="345" y="505" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 515.0" to="360 365.0 515.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python314%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="505" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python314%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python314:doc-73f53283968c4183335d75368086ce75</title>
+        <rect x="425" y="505" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 515.0" to="360 445.0 515.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python314%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="505" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python314%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="505" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="519.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="525" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python314" target="_blank" rel="noopener">
+        <title>python314:nogil</title>
+        <text x="5" y="539.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python314:nogil</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python314%3Anogil/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="525" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python314%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="525" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>excluded</title>
+        <rect x="305" y="525" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python314%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="525" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python314%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="525" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python314%3Anogil/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python314:nogil-73f53283968c4183335d75368086ce75</title>
+        <rect x="425" y="525" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 535.0" to="360 445.0 535.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python314%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="525" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python314%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="525" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="539.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="545" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python314" target="_blank" rel="noopener">
+        <title>python314:nogil-base</title>
+        <text x="5" y="559.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python314:nogil-base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python314%3Anogil-base/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="545" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python314%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="545" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>excluded</title>
+        <rect x="305" y="545" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python314%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="545" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python314%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="545" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python314%3Anogil-base/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python314:nogil-base-73f53283968c4183335d75368086ce75</title>
+        <rect x="425" y="545" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 555.0" to="360 445.0 555.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python314%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="545" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python314%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="545" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="559.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="565" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python315" target="_blank" rel="noopener">
+        <title>python315</title>
+        <text x="5" y="579.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python315</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python315/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="565" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python315/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="565" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python315/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="565" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python315/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python315-0d7340d46b9e13a1d3fec0d8f5280920</title>
+        <rect x="345" y="565" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 575.0" to="360 365.0 575.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python315/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="565" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="565" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python315/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="565" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python315/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="565" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="579.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="585" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python315" target="_blank" rel="noopener">
+        <title>python315:base</title>
+        <text x="5" y="599.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python315:base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python315%3Abase/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="585" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python315%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="585" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python315%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="585" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python315%3Abase/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python315:base-0d7340d46b9e13a1d3fec0d8f5280920</title>
+        <rect x="345" y="585" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 595.0" to="360 365.0 595.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python315%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="585" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python315%3Abase/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python315:base-0d7340d46b9e13a1d3fec0d8f5280920</title>
+        <rect x="425" y="585" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 595.0" to="360 445.0 595.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python315%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="585" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python315%3Abase/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="585" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="599.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="605" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python315" target="_blank" rel="noopener">
+        <title>python315:doc</title>
+        <text x="5" y="619.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python315:doc</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python315%3Adoc/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="605" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python315%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="605" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/python315%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="605" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python315%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_ARM::python315:doc-0d7340d46b9e13a1d3fec0d8f5280920</title>
+        <rect x="345" y="605" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 615.0" to="360 365.0 615.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python315%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="605" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python315%3Adoc/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python315:doc-0d7340d46b9e13a1d3fec0d8f5280920</title>
+        <rect x="425" y="605" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 615.0" to="360 445.0 615.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python315%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="605" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python315%3Adoc/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="605" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="619.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="625" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python315" target="_blank" rel="noopener">
+        <title>python315:nogil</title>
+        <text x="5" y="639.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python315:nogil</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python315%3Anogil/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="625" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python315%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="625" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>excluded</title>
+        <rect x="305" y="625" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python315%3Anogil/building" target="_blank" rel="noopener">
+        <title>building: building on i03-armsrv1:17</title>
+        <rect x="345" y="625" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="365.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 365.0 635.0" to="360 365.0 635.0" dur="2s" repeatCount="indefinite"/>
+            ⟳
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python315%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="625" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>blocked: python313-base, python-rpm-macros, libpython3_13-1_0</title>
+        <rect x="425" y="625" width="40" height="20" fill="#ffc107" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="445.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" class="blocked-icon">🛑</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python315%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="625" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python315%3Anogil/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="625" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="639.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="645" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/python315" target="_blank" rel="noopener">
+        <title>python315:nogil-base</title>
+        <text x="5" y="659.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">python315:nogil-base</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/python315%3Anogil-base/failed" target="_blank" rel="noopener">
+        <title>failed</title>
+        <rect x="225" y="645" width="40" height="20" fill="#dc3545" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✗</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/python315%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="645" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <g>
+        <title>excluded</title>
+        <rect x="305" y="645" width="40" height="20" fill="#6c757d" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">−</text>
+    </g>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/python315%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="645" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/python315%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="645" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/python315%3Anogil-base/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::python315:nogil-base-0d7340d46b9e13a1d3fec0d8f5280920</title>
+        <rect x="425" y="645" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 655.0" to="360 445.0 655.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/python315%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="645" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/python315%3Anogil-base/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="645" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="659.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <rect x="0" y="665" width="225" height="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="0.5"/>
+    <a href="http://gitexplorer.opensuse.org/packages/devel%3Alanguages%3Apython%3AFactory/shared-python-startup" target="_blank" rel="noopener">
+        <title>shared-python-startup</title>
+        <text x="5" y="679.0" font-family="monospace" font-size="11" fill="#0366d6" text-decoration="underline">shared-python-startup</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=15.6/x86_64/shared-python-startup/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="225" y="665" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="245.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=16.0/x86_64/shared-python-startup/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="265" y="665" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="285.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/aarch64/shared-python-startup/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="305" y="665" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="325.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_ARM/armv7l/shared-python-startup/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="345" y="665" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="365.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_PowerPC/ppc64le/shared-python-startup/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="385" y="665" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="405.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Factory_zSystems/s390x/shared-python-startup/scheduled" target="_blank" rel="noopener">
+        <title>scheduled: devel:languages:python:Factory::openSUSE_Factory_zSystems::shared-python-startup-ab5d87cf3548dc7d27164d9e4beae008</title>
+        <rect x="425" y="665" width="40" height="20" fill="#007bff" stroke="#dee2e6" stroke-width="0.5" class="building-cell"/>
+        <text x="445.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">
+            <animateTransform attributeName="transform" type="rotate" from="0 445.0 675.0" to="360 445.0 675.0" dur="2s" repeatCount="indefinite"/>
+            ⏱
+        </text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/i586/shared-python-startup/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="465" y="665" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="485.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?log=openSUSE_Tumbleweed/x86_64/shared-python-startup/succeeded" target="_blank" rel="noopener">
+        <title>succeeded</title>
+        <rect x="505" y="665" width="40" height="20" fill="#28a745" stroke="#dee2e6" stroke-width="0.5"/>
+        <text x="525.0" y="679.0" font-family="monospace" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+    </a>
+    <line x1="225" y1="25" x2="225" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="265" y1="25" x2="265" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="305" y1="25" x2="305" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="345" y1="25" x2="345" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="385" y1="25" x2="385" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="425" y1="25" x2="425" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="465" y1="25" x2="465" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="505" y1="25" x2="505" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+    <line x1="545" y1="25" x2="545" y2="685" stroke="#dee2e6" stroke-width="0.5"/>
+
+    <!-- Auto-refresh script -->
+    <script type="text/javascript">
+        <![CDATA[
+        const PROJECT_NAME = 'devel:languages:python:Factory';
+        const BASE_HOST = 'gitexplorer.opensuse.org';
+        const API_PATH = '/api/projects/devel%3Alanguages%3Apython%3AFactory/_result';
+        // Use same protocol as the page embedding this SVG to avoid mixed content
+        const API_URL = (window.location.protocol || "https:") + "//" + BASE_HOST + API_PATH;
+        const REFRESH_INTERVAL = 30000; // 30 seconds
+
+        function getStatusColor(status) {
+            const s = status.toLowerCase();
+            if (s === "reproducible") return "#44cc11";
+            if (s === "unreproducible") return "#ff6600";
+            if (s === "verifying") return "#007ec6";
+            if (s === "succeeded") return "#28a745";
+            if (s === "failed" || s === "broken" || s === "unresolvable") return "#e05d44";
+            if (s === "blocked") return "#dfb317";
+            if (s === "building" || s === "scheduled" || s === "dispatching" || s === "signing" || s === "finished") return "#007ec6";
+            return "#9f9f9f"; // disabled, excluded, unknown
+        }
+
+        function getStatusIcon(status) {
+            const s = status.toLowerCase();
+            if (s === "reproducible") return "✓✓";
+            if (s === "unreproducible") return "✓⚠";
+            if (s === "verifying") return "✓⟳";
+            if (s === "succeeded") return "✓";
+            if (s === "failed") return "✗";
+            if (s === "unresolvable") return "?";
+            if (s === "broken") return "⚠";
+            if (s === "blocked") return "🛑";
+            if (s === "building" || s === "dispatching" || s === "signing") return "⟳";
+            if (s === "scheduled") return "⏱";
+            if (s === "disabled") return "○";
+            if (s === "excluded") return "−";
+            return "";
+        }
+
+        function isBuilding(status) {
+            const s = status.toLowerCase();
+            return s === "building" || s === "scheduled" || s === "dispatching" || s === "signing" || s === "finished";
+        }
+
+        function updateBadge() {
+            fetch(API_URL)
+                .then(response => response.text())
+                .then(xmlText => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+                    const results = xmlDoc.querySelectorAll("result");
+
+                    // Build matrix from XML
+                    const matrix = {};
+                    let allFinal = true;
+
+                    results.forEach(result => {
+                        const repo = result.getAttribute("repository");
+                        const arch = result.getAttribute("arch");
+
+                        // Skip repositories ending with _reproduciblecheck
+                        if (repo && repo.endsWith("_reproduciblecheck")) {
+                            return;
+                        }
+
+                        const dirty = result.getAttribute("dirty") === "true";
+                        const code = result.getAttribute("code");
+
+                        if (dirty || (code !== "published" && code !== "unpublished")) {
+                            allFinal = false;
+                        }
+
+                        const statuses = result.querySelectorAll("status");
+                        statuses.forEach(status => {
+                            const pkg = status.getAttribute("package");
+                            const statusCode = status.getAttribute("code");
+                            const reproducibleCheck = status.getAttribute("reproduciblecheck");
+                            const key = `${repo}:${arch}`;
+
+                            // Extract details from attribute or child element
+                            let details = status.getAttribute("details");
+                            if (!details) {
+                                const detailsElem = status.querySelector("details");
+                                if (detailsElem) details = detailsElem.textContent;
+                            }
+
+                            // Map status based on reproduciblecheck
+                            let finalStatus = statusCode;
+                            if (statusCode === "succeeded" && reproducibleCheck) {
+                                if (reproducibleCheck === "succeeded") {
+                                    finalStatus = "reproducible";
+                                } else if (reproducibleCheck === "failed") {
+                                    finalStatus = "unreproducible";
+                                } else if (["building", "scheduled", "dispatching", "signing", "finished"].includes(reproducibleCheck)) {
+                                    finalStatus = "verifying";
+                                }
+                            }
+
+                            // Check package status for non-final states
+                            const s = finalStatus.toLowerCase();
+                            const nonFinalStatuses = ["building", "scheduled", "dispatching", "signing", "finished", "blocked", "deleting", "verifying", "unreproducible"];
+                            if (nonFinalStatuses.includes(s)) {
+                                allFinal = false;
+                            }
+
+                            if (!matrix[pkg]) matrix[pkg] = {};
+                            matrix[pkg][key] = {status: finalStatus, details: details || ""};
+                        });
+                    });
+
+                    // Update SVG elements
+                    const svg = document.querySelector("svg");
+
+                    // First update background rects for reproducible cells by data attributes
+                    const bgRects = svg.querySelectorAll("rect[data-pkg]");
+                    bgRects.forEach(rect => {
+                        const pkg = rect.getAttribute("data-pkg");
+                        const repo = rect.getAttribute("data-repo");
+                        const arch = rect.getAttribute("data-arch");
+                        const key = `${repo}:${arch}`;
+
+                        const entry = matrix[pkg] && matrix[pkg][key];
+                        if (!entry) return;
+
+                        const newStatus = entry.status;
+                        const newDetails = entry.details;
+
+                        // Update background color
+                        let color = getStatusColor(newStatus);
+                        if (newStatus.toLowerCase() === "finished" && newDetails) {
+                            if (newDetails.toLowerCase().includes("succeeded")) {
+                                color = "#44cc11";
+                            } else if (newDetails.toLowerCase().includes("failed")) {
+                                color = "#e05d44";
+                            }
+                        }
+                        rect.setAttribute("fill", color);
+
+                        // Update animation class
+                        if (isBuilding(newStatus)) {
+                            rect.setAttribute("class", "building-cell");
+                        } else {
+                            rect.removeAttribute("class");
+                        }
+                    });
+
+                    // Update regular single-link cells
+                    const links = svg.querySelectorAll("a");
+                    links.forEach(link => {
+                        // Skip reproducibility check links (right half of split cells)
+                        if (link.getAttribute("data-repro") === "true") return;
+
+                        const href = link.getAttribute("href");
+                        if (!href || !href.includes("?log=")) return;
+
+                        // Extract repo/arch/package from log URL
+                        const match = href.match(/\?log=([^/]+)\/([^/]+)\/([^/]+)\//);
+                        if (!match) return;
+
+                        const [, repo, arch, pkg] = match;
+                        const key = `${decodeURIComponent(repo)}:${decodeURIComponent(arch)}`;
+                        const pkgName = decodeURIComponent(pkg);
+
+                        const entry = matrix[pkgName] && matrix[pkgName][key];
+                        if (!entry) return;
+
+                        const newStatus = entry.status;
+                        const newDetails = entry.details;
+
+                        // Check if this is a split cell (title indicates left half)
+                        const title = link.querySelector("title");
+                        const isSplitCellLeftHalf = title && title.textContent === "Build log";
+
+                        // For split cells, only update left icon to ✓
+                        if (isSplitCellLeftHalf) {
+                            const text = link.querySelector("text");
+                            if (text) {
+                                text.textContent = "✓";
+                            }
+                            return;
+                        }
+
+                        // Update cell color for regular (non-split) cells
+                        const rect = link.querySelector("rect");
+                        if (rect) {
+                            let color = getStatusColor(newStatus);
+                            // Special handling for finished state based on details
+                            if (newStatus.toLowerCase() === "finished" && newDetails) {
+                                if (newDetails.toLowerCase().includes("succeeded")) {
+                                    color = "#44cc11"; // Bright green
+                                } else if (newDetails.toLowerCase().includes("failed")) {
+                                    color = "#e05d44"; // Bright red
+                                }
+                            }
+                            rect.setAttribute("fill", color);
+
+                            // Update animation class
+                            if (isBuilding(newStatus)) {
+                                rect.setAttribute("class", "building-cell");
+                            } else {
+                                rect.removeAttribute("class");
+                            }
+                        }
+
+                        // Update icon
+                        const text = link.querySelector("text");
+                        if (text) {
+                            const newIcon = getStatusIcon(newStatus);
+                            const animate = text.querySelector("animateTransform");
+
+                            if (isBuilding(newStatus)) {
+                                // Add animation if not present
+                                if (!animate && newIcon) {
+                                    const x = parseFloat(text.getAttribute("x"));
+                                    const y = parseFloat(text.getAttribute("y"));
+                                    const centerY = y - 4; // Remove baseline offset
+                                    const animateElem = document.createElementNS("http://www.w3.org/2000/svg", "animateTransform");
+                                    animateElem.setAttribute("attributeName", "transform");
+                                    animateElem.setAttribute("type", "rotate");
+                                    animateElem.setAttribute("from", `0 ${x} ${centerY}`);
+                                    animateElem.setAttribute("to", `360 ${x} ${centerY}`);
+                                    animateElem.setAttribute("dur", "2s");
+                                    animateElem.setAttribute("repeatCount", "indefinite");
+                                    // Clear all children and rebuild structure
+                                    text.textContent = "";
+                                    text.appendChild(animateElem);
+                                    text.appendChild(document.createTextNode(newIcon));
+                                } else if (animate && newIcon) {
+                                    // Animation exists - update only the text node, not the structure
+                                    // Remove all text nodes and add a single new one
+                                    Array.from(text.childNodes).forEach(node => {
+                                        if (node.nodeType === 3) node.remove();
+                                    });
+                                    text.appendChild(document.createTextNode(newIcon));
+                                }
+                            } else {
+                                // Remove animation and show static icon
+                                if (animate) animate.remove();
+                                text.textContent = newIcon;
+                                // Apply blocked-icon class for blocked status
+                                if (newStatus.toLowerCase() === "blocked") {
+                                    text.setAttribute("class", "blocked-icon");
+                                } else {
+                                    text.removeAttribute("class");
+                                }
+                            }
+                        }
+
+                        // Update tooltip
+                        const linkTitle = link.querySelector("title");
+                        if (linkTitle) {
+                            const tooltipText = newDetails ? `${newStatus}: ${newDetails}` : newStatus;
+                            linkTitle.textContent = tooltipText;
+                        }
+                    });
+
+                    // Update right-half icons for split cells (reproducible/unreproducible/verifying)
+                    const reproLinks = svg.querySelectorAll("a[data-repro=\"true\"]");
+                    reproLinks.forEach(link => {
+                        const href = link.getAttribute("href");
+                        if (!href || !href.includes("?log=")) return;
+
+                        // Extract repo/arch/package - need to remove _reproduciblecheck suffix from repo
+                        const match = href.match(/\?log=([^/]+)_reproduciblecheck\/([^/]+)\/([^/]+)\//);
+                        if (!match) return;
+
+                        const [, repo, arch, pkg] = match;
+                        const key = `${decodeURIComponent(repo)}:${decodeURIComponent(arch)}`;
+                        const pkgName = decodeURIComponent(pkg);
+
+                        const entry = matrix[pkgName] && matrix[pkgName][key];
+                        if (!entry) return;
+
+                        const newStatus = entry.status;
+
+                        // Update right icon based on status
+                        const text = link.querySelector("text");
+                        if (text) {
+                            let rightIcon = "✓";
+                            if (newStatus.toLowerCase() === "reproducible") {
+                                rightIcon = "✓";
+                            } else if (newStatus.toLowerCase() === "unreproducible") {
+                                rightIcon = "⚠";
+                            } else if (newStatus.toLowerCase() === "verifying") {
+                                rightIcon = "⟳";
+                            }
+                            text.textContent = rightIcon;
+                        }
+                    });
+
+                    // Update non-clickable cells (g elements)
+                    const groups = svg.querySelectorAll("g");
+                    groups.forEach(group => {
+                        const rect = group.querySelector("rect");
+                        if (!rect) return;
+
+                        // Try to identify cell by position (simple heuristic)
+                        // This is for non-clickable cells that do not have log URLs
+                        const title = group.querySelector("title");
+                        if (!title) return;
+
+                        // Parse old tooltip to extract pkg/repo/arch info
+                        const oldTooltip = title.textContent;
+                        // Skip if this is a package name or repo/arch header tooltip
+                        if (!oldTooltip.includes(":") || oldTooltip.includes("/")) return;
+
+                        // For now, skip updating non-clickable cells
+                        // They are typically disabled/excluded statuses which rarely change
+                    });
+
+                    // Update FINAL/NOT FINAL indicator
+                    const statusTexts = svg.querySelectorAll("text");
+                    statusTexts.forEach(text => {
+                        if (text.textContent === "FINAL" || text.textContent === "NOT FINAL") {
+                            const newText = allFinal ? "FINAL" : "NOT FINAL";
+                            text.textContent = newText;
+
+                            if (allFinal) {
+                                text.removeAttribute("class");
+                            } else {
+                                text.setAttribute("class", "not-final-indicator");
+                            }
+
+                            // Update status row color
+                            const parent = text.parentElement;
+                            if (parent && parent.tagName === "a") {
+                                const statusRect = parent.querySelector("rect");
+                                if (statusRect) {
+                                    statusRect.setAttribute("fill", allFinal ? "#28a745" : "#007ec6");
+                                }
+                            }
+                        }
+                    });
+
+                    // Update timestamp
+                    const timestamp = svg.querySelector("#last-updated");
+                    if (timestamp) {
+                        const now = new Date();
+                        const timeStr = now.toTimeString().substring(0, 8);
+                        timestamp.textContent = `Updated: ${timeStr}`;
+                    }
+                })
+                .catch(err => console.error("Badge update failed:", err));
+        }
+
+        // Start auto-refresh
+        setInterval(updateBadge, REFRESH_INTERVAL);
+
+        // Update immediately when tab becomes visible again
+        document.addEventListener("visibilitychange", function() {
+            if (!document.hidden) {
+                console.log("Tab became visible, updating badge immediately");
+                updateBadge();
+            }
+        });
+        ]]>
+    </script>
+</svg>

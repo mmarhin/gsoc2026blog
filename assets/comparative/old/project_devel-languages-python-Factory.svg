@@ -1,0 +1,62 @@
+<svg version="2.0" overflow="auto" width="40ex" height="74em" xmlns="http://www.w3.org/2000/svg"><defs>
+		</defs><text stroke="black" fill="black" x="1ex" y="2.5em">15.6</text><use href="#repotitle" y="3.5em"/><text stroke="black" fill="black" x="3ex" y="4.9em">x86_64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="6.9em">
+excluded: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;failed=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="8.9em">
+failed: 22</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;succeeded=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="10.9em">
+succeeded: 5</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;unresolvable=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="12.9em">
+unresolvable: 1</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="15em">16.0</text><use href="#repotitle" y="16em"/><text stroke="black" fill="black" x="3ex" y="17.4em">x86_64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_x86_64=1&amp;repo_16_0=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="19.4em">
+excluded: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;succeeded=1&amp;arch_x86_64=1&amp;repo_16_0=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="21.4em">
+succeeded: 28</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="23.5em">openSUSE_Factory_ARM</text><use href="#repotitle" y="24.5em"/><text stroke="black" fill="black" x="3ex" y="25.9em">aarch64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_aarch64=1&amp;repo_openSUSE_Factory_ARM=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="27.9em">
+excluded: 10</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;succeeded=1&amp;arch_aarch64=1&amp;repo_openSUSE_Factory_ARM=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="29.9em">
+succeeded: 22</text></a></g>
+<use href="#repotitle" y="30.5em"/><text stroke="black" fill="black" x="3ex" y="31.9em">armv7l</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;building=1&amp;arch_armv7l=1&amp;repo_openSUSE_Factory_ARM=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="33.9em">
+building: 12</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_armv7l=1&amp;repo_openSUSE_Factory_ARM=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="35.9em">
+excluded: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;succeeded=1&amp;arch_armv7l=1&amp;repo_openSUSE_Factory_ARM=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="37.9em">
+succeeded: 16</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="40em">openSUSE_Factory_PowerPC</text><use href="#repotitle" y="41em"/><text stroke="black" fill="black" x="3ex" y="42.4em">ppc64le</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_ppc64le=1&amp;repo_openSUSE_Factory_PowerPC=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="44.4em">
+excluded: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;succeeded=1&amp;arch_ppc64le=1&amp;repo_openSUSE_Factory_PowerPC=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="46.4em">
+succeeded: 28</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="48.5em">openSUSE_Factory_zSystems</text><use href="#repotitle" y="49.5em"/><text stroke="black" fill="black" x="3ex" y="50.9em">s390x</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;blocked=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="52.9em">
+blocked: 9</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;building=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="54.9em">
+building: 19</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="56.9em">
+excluded: 4</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="59em">openSUSE_Tumbleweed</text><use href="#repotitle" y="60em"/><text stroke="black" fill="black" x="3ex" y="61.4em">i586</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_i586=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="63.4em">
+excluded: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;succeeded=1&amp;arch_i586=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="65.4em">
+succeeded: 28</text></a></g>
+<use href="#repotitle" y="66em"/><text stroke="black" fill="black" x="3ex" y="67.4em">x86_64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;excluded=1&amp;arch_x86_64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="69.4em">
+excluded: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:Factory?defaults=0&amp;succeeded=1&amp;arch_x86_64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="71.4em">
+succeeded: 28</text></a></g>
+</svg>

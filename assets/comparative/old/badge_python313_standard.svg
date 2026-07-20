@@ -1,0 +1,45 @@
+<svg version="2.0" overflow="auto" width="40ex" height="8.5em" xmlns="http://www.w3.org/2000/svg"><defs>
+	    <g id="s">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="green" fill="#efe" rx="5" />
+	      <text x="2.5ex" y="1.1em">succeeded</text>
+	    </g>
+	    <g id="f">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="red" fill="#fee" rx="5" />
+	      <text x="5ex" y="1.1em">failed</text>
+	    </g>
+	    <g id="b">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="#fbf" rx="5" />
+	      <text x="3.75ex" y="1.1em">blocked</text>
+	    </g>
+	    <g id="broken">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="#fff" rx="5" />
+	      <text x="4.5ex" y="1.1em" stroke="red" fill="red">broken</text>
+	    </g>
+	    <g id="build">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="yellow" fill="#664" rx="5" />
+	      <text x="3.75ex" y="1.1em" fill="yellow">building</text>
+	    </g>
+	    <g id="u">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="yellow" fill="#555" rx="5" />
+	    <text x="2ex" y="1.1em" fill="orange">unresolvable</text>
+	    </g>
+	    <g id="scheduled">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="blue" fill="none" rx="5" />
+	      <text x="3ex" y="1.1em" stroke="none" fill="blue">scheduled</text>
+	    </g>
+	    <g id="d">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="grey">disabled</text>
+	    </g>
+	    <g id="e">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="#aaf">excluded</text>
+	    </g>
+	    <g id="un">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="grey">unknown</text>
+	    </g>
+		<rect id="repotitle" width="100%" height="2em" stroke-width="1" stroke="grey" fill="grey" rx="2" />
+	  </defs><text stroke="black" fill="black" x="1ex" y="-0.5em">python313:base</text><use href="#repotitle" y="0.5em"/><text stroke="black" fill="black" x="3ex" y="1.9em">standard</text><text fill="#113" x="5ex" y="3.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:base/standard/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="2.8em"/></a></g>
+<text fill="#113" x="5ex" y="5.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/standard/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="4.8em"/></a></g>
+</svg>

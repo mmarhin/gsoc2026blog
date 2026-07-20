@@ -1,0 +1,83 @@
+<svg version="2.0" overflow="auto" width="40ex" height="152.5em" xmlns="http://www.w3.org/2000/svg"><defs>
+	    <g id="s">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="green" fill="#efe" rx="5" />
+	      <text x="2.5ex" y="1.1em">succeeded</text>
+	    </g>
+	    <g id="f">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="red" fill="#fee" rx="5" />
+	      <text x="5ex" y="1.1em">failed</text>
+	    </g>
+	    <g id="b">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="#fbf" rx="5" />
+	      <text x="3.75ex" y="1.1em">blocked</text>
+	    </g>
+	    <g id="broken">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="#fff" rx="5" />
+	      <text x="4.5ex" y="1.1em" stroke="red" fill="red">broken</text>
+	    </g>
+	    <g id="build">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="yellow" fill="#664" rx="5" />
+	      <text x="3.75ex" y="1.1em" fill="yellow">building</text>
+	    </g>
+	    <g id="u">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="yellow" fill="#555" rx="5" />
+	    <text x="2ex" y="1.1em" fill="orange">unresolvable</text>
+	    </g>
+	    <g id="scheduled">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="blue" fill="none" rx="5" />
+	      <text x="3ex" y="1.1em" stroke="none" fill="blue">scheduled</text>
+	    </g>
+	    <g id="d">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="grey">disabled</text>
+	    </g>
+	    <g id="e">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="#aaf">excluded</text>
+	    </g>
+	    <g id="un">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="grey">unknown</text>
+	    </g>
+		<rect id="repotitle" width="100%" height="2em" stroke-width="1" stroke="grey" fill="grey" rx="2" />
+	  </defs><text stroke="black" fill="black" x="1ex" y="-0.5em">python313</text><use href="#repotitle" y="0.5em"/><text stroke="black" fill="black" x="3ex" y="1.9em">15.6</text><text fill="#113" x="5ex" y="3.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313/15.6/x86_64" target="_blank" rel="noopener"><use href="#f" x="20ex" y="2.8em"/></a></g>
+<use href="#repotitle" y="4.5em"/><text stroke="black" fill="black" x="3ex" y="5.9em">16.0</text><text fill="#113" x="5ex" y="7.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313/16.0/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="6.8em"/></a></g>
+<use href="#repotitle" y="8.5em"/><text stroke="black" fill="black" x="3ex" y="9.9em">openSUSE_Factory_ARM</text><text fill="#113" x="5ex" y="11.9em">aarch64</text><g><a href="/buildlog/devel:languages:python:Factory/python313/openSUSE_Factory_ARM/aarch64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="10.8em"/></a></g>
+<text fill="#113" x="5ex" y="13.9em">armv7l</text><g><a href="/buildlog/devel:languages:python:Factory/python313/openSUSE_Factory_ARM/armv7l" target="_blank" rel="noopener"><use href="#s" x="20ex" y="12.8em"/></a></g>
+<use href="#repotitle" y="14.5em"/><text stroke="black" fill="black" x="3ex" y="15.9em">openSUSE_Factory_PowerPC</text><text fill="#113" x="5ex" y="17.9em">ppc64le</text><g><a href="/buildlog/devel:languages:python:Factory/python313/openSUSE_Factory_PowerPC/ppc64le" target="_blank" rel="noopener"><use href="#s" x="20ex" y="16.8em"/></a></g>
+<use href="#repotitle" y="18.5em"/><text stroke="black" fill="black" x="3ex" y="19.9em">openSUSE_Factory_zSystems</text><text fill="#113" x="5ex" y="21.9em">s390x</text><g><a href="/buildlog/devel:languages:python:Factory/python313/openSUSE_Factory_zSystems/s390x" target="_blank" rel="noopener"><use href="#b" x="20ex" y="20.8em"/></a><title>python313-base, python-rpm-macros, libpython3_13-1_0</title></g>
+<use href="#repotitle" y="22.5em"/><text stroke="black" fill="black" x="3ex" y="23.9em">openSUSE_Tumbleweed</text><text fill="#113" x="5ex" y="25.9em">i586</text><g><a href="/buildlog/devel:languages:python:Factory/python313/openSUSE_Tumbleweed/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="24.8em"/></a></g>
+<text fill="#113" x="5ex" y="27.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313/openSUSE_Tumbleweed/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="26.8em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="30em">python313:base</text><use href="#repotitle" y="31em"/><text stroke="black" fill="black" x="3ex" y="32.4em">15.6</text><text fill="#113" x="5ex" y="34.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/15.6/x86_64" target="_blank" rel="noopener"><use href="#f" x="20ex" y="33.3em"/></a></g>
+<use href="#repotitle" y="35em"/><text stroke="black" fill="black" x="3ex" y="36.4em">16.0</text><text fill="#113" x="5ex" y="38.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/16.0/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="37.3em"/></a></g>
+<use href="#repotitle" y="39em"/><text stroke="black" fill="black" x="3ex" y="40.4em">openSUSE_Factory_ARM</text><text fill="#113" x="5ex" y="42.4em">aarch64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/openSUSE_Factory_ARM/aarch64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="41.3em"/></a></g>
+<text fill="#113" x="5ex" y="44.4em">armv7l</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/openSUSE_Factory_ARM/armv7l" target="_blank" rel="noopener"><use href="#s" x="20ex" y="43.3em"/></a></g>
+<use href="#repotitle" y="45em"/><text stroke="black" fill="black" x="3ex" y="46.4em">openSUSE_Factory_PowerPC</text><text fill="#113" x="5ex" y="48.4em">ppc64le</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/openSUSE_Factory_PowerPC/ppc64le" target="_blank" rel="noopener"><use href="#s" x="20ex" y="47.3em"/></a></g>
+<use href="#repotitle" y="49em"/><text stroke="black" fill="black" x="3ex" y="50.4em">openSUSE_Factory_zSystems</text><text fill="#113" x="5ex" y="52.4em">s390x</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/openSUSE_Factory_zSystems/s390x" target="_blank" rel="noopener"><use href="#b" x="20ex" y="51.3em"/></a><title>python-rpm-macros</title></g>
+<use href="#repotitle" y="53em"/><text stroke="black" fill="black" x="3ex" y="54.4em">openSUSE_Tumbleweed</text><text fill="#113" x="5ex" y="56.4em">i586</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/openSUSE_Tumbleweed/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="55.3em"/></a></g>
+<text fill="#113" x="5ex" y="58.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:base/openSUSE_Tumbleweed/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="57.3em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="60.5em">python313:doc</text><use href="#repotitle" y="61.5em"/><text stroke="black" fill="black" x="3ex" y="62.9em">15.6</text><text fill="#113" x="5ex" y="64.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/15.6/x86_64" target="_blank" rel="noopener"><use href="#f" x="20ex" y="63.8em"/></a></g>
+<use href="#repotitle" y="65.5em"/><text stroke="black" fill="black" x="3ex" y="66.9em">16.0</text><text fill="#113" x="5ex" y="68.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/16.0/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="67.8em"/></a></g>
+<use href="#repotitle" y="69.5em"/><text stroke="black" fill="black" x="3ex" y="70.9em">openSUSE_Factory_ARM</text><text fill="#113" x="5ex" y="72.9em">aarch64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/openSUSE_Factory_ARM/aarch64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="71.8em"/></a></g>
+<text fill="#113" x="5ex" y="74.9em">armv7l</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/openSUSE_Factory_ARM/armv7l" target="_blank" rel="noopener"><use href="#build" x="20ex" y="73.8em"/></a></g>
+<use href="#repotitle" y="75.5em"/><text stroke="black" fill="black" x="3ex" y="76.9em">openSUSE_Factory_PowerPC</text><text fill="#113" x="5ex" y="78.9em">ppc64le</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/openSUSE_Factory_PowerPC/ppc64le" target="_blank" rel="noopener"><use href="#s" x="20ex" y="77.8em"/></a></g>
+<use href="#repotitle" y="79.5em"/><text stroke="black" fill="black" x="3ex" y="80.9em">openSUSE_Factory_zSystems</text><text fill="#113" x="5ex" y="82.9em">s390x</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/openSUSE_Factory_zSystems/s390x" target="_blank" rel="noopener"><use href="#build" x="20ex" y="81.8em"/></a></g>
+<use href="#repotitle" y="83.5em"/><text stroke="black" fill="black" x="3ex" y="84.9em">openSUSE_Tumbleweed</text><text fill="#113" x="5ex" y="86.9em">i586</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/openSUSE_Tumbleweed/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="85.8em"/></a></g>
+<text fill="#113" x="5ex" y="88.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:doc/openSUSE_Tumbleweed/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="87.8em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="91em">python313:nogil</text><use href="#repotitle" y="92em"/><text stroke="black" fill="black" x="3ex" y="93.4em">15.6</text><text fill="#113" x="5ex" y="95.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/15.6/x86_64" target="_blank" rel="noopener"><use href="#f" x="20ex" y="94.3em"/></a></g>
+<use href="#repotitle" y="96em"/><text stroke="black" fill="black" x="3ex" y="97.4em">16.0</text><text fill="#113" x="5ex" y="99.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/16.0/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="98.3em"/></a></g>
+<use href="#repotitle" y="100em"/><text stroke="black" fill="black" x="3ex" y="101.4em">openSUSE_Factory_ARM</text><text fill="#113" x="5ex" y="103.4em">aarch64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/openSUSE_Factory_ARM/aarch64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="102.3em"/></a></g>
+<text fill="#113" x="5ex" y="105.4em">armv7l</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/openSUSE_Factory_ARM/armv7l" target="_blank" rel="noopener"><use href="#s" x="20ex" y="104.3em"/></a></g>
+<use href="#repotitle" y="106em"/><text stroke="black" fill="black" x="3ex" y="107.4em">openSUSE_Factory_PowerPC</text><text fill="#113" x="5ex" y="109.4em">ppc64le</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/openSUSE_Factory_PowerPC/ppc64le" target="_blank" rel="noopener"><use href="#s" x="20ex" y="108.3em"/></a></g>
+<use href="#repotitle" y="110em"/><text stroke="black" fill="black" x="3ex" y="111.4em">openSUSE_Factory_zSystems</text><text fill="#113" x="5ex" y="113.4em">s390x</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/openSUSE_Factory_zSystems/s390x" target="_blank" rel="noopener"><use href="#b" x="20ex" y="112.3em"/></a><title>python313-base, python-rpm-macros, libpython3_13-1_0</title></g>
+<use href="#repotitle" y="114em"/><text stroke="black" fill="black" x="3ex" y="115.4em">openSUSE_Tumbleweed</text><text fill="#113" x="5ex" y="117.4em">i586</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/openSUSE_Tumbleweed/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="116.3em"/></a></g>
+<text fill="#113" x="5ex" y="119.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil/openSUSE_Tumbleweed/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="118.3em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="121.5em">python313:nogil-base</text><use href="#repotitle" y="122.5em"/><text stroke="black" fill="black" x="3ex" y="123.9em">15.6</text><text fill="#113" x="5ex" y="125.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/15.6/x86_64" target="_blank" rel="noopener"><use href="#f" x="20ex" y="124.8em"/></a></g>
+<use href="#repotitle" y="126.5em"/><text stroke="black" fill="black" x="3ex" y="127.9em">16.0</text><text fill="#113" x="5ex" y="129.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/16.0/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="128.8em"/></a></g>
+<use href="#repotitle" y="130.5em"/><text stroke="black" fill="black" x="3ex" y="131.9em">openSUSE_Factory_ARM</text><text fill="#113" x="5ex" y="133.9em">aarch64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/openSUSE_Factory_ARM/aarch64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="132.8em"/></a></g>
+<text fill="#113" x="5ex" y="135.9em">armv7l</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/openSUSE_Factory_ARM/armv7l" target="_blank" rel="noopener"><use href="#s" x="20ex" y="134.8em"/></a></g>
+<use href="#repotitle" y="136.5em"/><text stroke="black" fill="black" x="3ex" y="137.9em">openSUSE_Factory_PowerPC</text><text fill="#113" x="5ex" y="139.9em">ppc64le</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/openSUSE_Factory_PowerPC/ppc64le" target="_blank" rel="noopener"><use href="#s" x="20ex" y="138.8em"/></a></g>
+<use href="#repotitle" y="140.5em"/><text stroke="black" fill="black" x="3ex" y="141.9em">openSUSE_Factory_zSystems</text><text fill="#113" x="5ex" y="143.9em">s390x</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/openSUSE_Factory_zSystems/s390x" target="_blank" rel="noopener"><use href="#b" x="20ex" y="142.8em"/></a><title>python313-base, python-rpm-macros, libpython3_13-1_0</title></g>
+<use href="#repotitle" y="144.5em"/><text stroke="black" fill="black" x="3ex" y="145.9em">openSUSE_Tumbleweed</text><text fill="#113" x="5ex" y="147.9em">i586</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/openSUSE_Tumbleweed/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="146.8em"/></a></g>
+<text fill="#113" x="5ex" y="149.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:Factory/python313:nogil-base/openSUSE_Tumbleweed/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="148.8em"/></a></g>
+</svg>

@@ -1,0 +1,59 @@
+<svg version="2.0" overflow="auto" width="40ex" height="57em" xmlns="http://www.w3.org/2000/svg"><defs>
+	    <g id="s">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="green" fill="#efe" rx="5" />
+	      <text x="2.5ex" y="1.1em">succeeded</text>
+	    </g>
+	    <g id="f">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="red" fill="#fee" rx="5" />
+	      <text x="5ex" y="1.1em">failed</text>
+	    </g>
+	    <g id="b">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="#fbf" rx="5" />
+	      <text x="3.75ex" y="1.1em">blocked</text>
+	    </g>
+	    <g id="broken">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="#fff" rx="5" />
+	      <text x="4.5ex" y="1.1em" stroke="red" fill="red">broken</text>
+	    </g>
+	    <g id="build">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="yellow" fill="#664" rx="5" />
+	      <text x="3.75ex" y="1.1em" fill="yellow">building</text>
+	    </g>
+	    <g id="u">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="yellow" fill="#555" rx="5" />
+	    <text x="2ex" y="1.1em" fill="orange">unresolvable</text>
+	    </g>
+	    <g id="scheduled">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="blue" fill="none" rx="5" />
+	      <text x="3ex" y="1.1em" stroke="none" fill="blue">scheduled</text>
+	    </g>
+	    <g id="d">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="grey">disabled</text>
+	    </g>
+	    <g id="e">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="#aaf">excluded</text>
+	    </g>
+	    <g id="un">
+	      <rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+	      <text x="4ex" y="1.1em" stroke="none" fill="grey">unknown</text>
+	    </g>
+		<rect id="repotitle" width="100%" height="2em" stroke-width="1" stroke="grey" fill="grey" rx="2" />
+	  </defs><text stroke="black" fill="black" x="1ex" y="-0.5em">python-pytest</text><use href="#repotitle" y="0.5em"/><text stroke="black" fill="black" x="3ex" y="1.9em">15.6</text><text fill="#113" x="5ex" y="3.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/15.6/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="2.8em"/></a></g>
+<use href="#repotitle" y="4.5em"/><text stroke="black" fill="black" x="3ex" y="5.9em">16.0</text><text fill="#113" x="5ex" y="7.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/16.0/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="6.8em"/></a></g>
+<use href="#repotitle" y="8.5em"/><text stroke="black" fill="black" x="3ex" y="9.9em">openSUSE_Factory_PowerPC</text><text fill="#113" x="5ex" y="11.9em">ppc64le</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/openSUSE_Factory_PowerPC/ppc64le" target="_blank" rel="noopener"><use href="#s" x="20ex" y="10.8em"/></a></g>
+<use href="#repotitle" y="12.5em"/><text stroke="black" fill="black" x="3ex" y="13.9em">openSUSE_Factory_zSystems</text><text fill="#113" x="5ex" y="15.9em">s390x</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/openSUSE_Factory_zSystems/s390x" target="_blank" rel="noopener"><use href="#s" x="20ex" y="14.8em"/></a></g>
+<use href="#repotitle" y="16.5em"/><text stroke="black" fill="black" x="3ex" y="17.9em">openSUSE_Tumbleweed</text><text fill="#113" x="5ex" y="19.9em">aarch64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/openSUSE_Tumbleweed/aarch64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="18.8em"/></a></g>
+<text fill="#113" x="5ex" y="21.9em">armv7l</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/openSUSE_Tumbleweed/armv7l" target="_blank" rel="noopener"><use href="#s" x="20ex" y="20.8em"/></a></g>
+<text fill="#113" x="5ex" y="23.9em">i586</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/openSUSE_Tumbleweed/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="22.8em"/></a></g>
+<text fill="#113" x="5ex" y="25.9em">x86_64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest/openSUSE_Tumbleweed/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="24.8em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="28em">python-pytest:test</text><use href="#repotitle" y="29em"/><text stroke="black" fill="black" x="3ex" y="30.4em">15.6</text><text fill="#113" x="5ex" y="32.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/15.6/x86_64" target="_blank" rel="noopener"><use href="#f" x="20ex" y="31.3em"/></a></g>
+<use href="#repotitle" y="33em"/><text stroke="black" fill="black" x="3ex" y="34.4em">16.0</text><text fill="#113" x="5ex" y="36.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/16.0/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="35.3em"/></a></g>
+<use href="#repotitle" y="37em"/><text stroke="black" fill="black" x="3ex" y="38.4em">openSUSE_Factory_PowerPC</text><text fill="#113" x="5ex" y="40.4em">ppc64le</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/openSUSE_Factory_PowerPC/ppc64le" target="_blank" rel="noopener"><use href="#s" x="20ex" y="39.3em"/></a></g>
+<use href="#repotitle" y="41em"/><text stroke="black" fill="black" x="3ex" y="42.4em">openSUSE_Factory_zSystems</text><text fill="#113" x="5ex" y="44.4em">s390x</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/openSUSE_Factory_zSystems/s390x" target="_blank" rel="noopener"><use href="#b" x="20ex" y="43.3em"/></a><title>python314-pygments-pytest, python313-pygments-pytest, python314-pytest-xdist, python313-pytest-xdist</title></g>
+<use href="#repotitle" y="45em"/><text stroke="black" fill="black" x="3ex" y="46.4em">openSUSE_Tumbleweed</text><text fill="#113" x="5ex" y="48.4em">aarch64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/openSUSE_Tumbleweed/aarch64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="47.3em"/></a></g>
+<text fill="#113" x="5ex" y="50.4em">armv7l</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/openSUSE_Tumbleweed/armv7l" target="_blank" rel="noopener"><use href="#s" x="20ex" y="49.3em"/></a></g>
+<text fill="#113" x="5ex" y="52.4em">i586</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/openSUSE_Tumbleweed/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="51.3em"/></a></g>
+<text fill="#113" x="5ex" y="54.4em">x86_64</text><g><a href="/buildlog/devel:languages:python:pytest/python-pytest:test/openSUSE_Tumbleweed/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="53.3em"/></a></g>
+</svg>

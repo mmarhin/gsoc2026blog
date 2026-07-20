@@ -1,0 +1,191 @@
+<svg version="2.0" overflow="auto" xmlns="http://www.w3.org/2000/svg" width="545.5" height="20">
+    <title>build: 155 succeeded, 23 failed, 9 blocked, 31 building, 22 inactive, Not Final</title>
+    <linearGradient id="s" x2="0" y2="100%">
+        <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+        <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+    <clipPath id="r">
+        <rect width="545.5" height="20" rx="3" fill="#fff"/>
+    </clipPath>
+    <g clip-path="url(#r)">
+        <rect width="42.5" height="20" fill="#555"/>
+        <rect x="42.5" width="94.5" height="20" fill="#44cc11" data-status="succeeded"/>
+        <rect x="145.0" width="68.5" height="20" fill="#e05d44" data-status="failed"/>
+        <rect x="221.5" width="68.5" height="20" fill="#dfb317" data-status="blocked"/>
+        <rect x="298.0" width="81.5" height="20" fill="#007ec6" data-status="building"/>
+        <rect x="387.5" width="81.5" height="20" fill="#9f9f9f" data-status="inactive"/>
+        <rect x="477.0" width="68.5" height="20" fill="#007ec6" data-status="final"/>
+        <rect width="545.5" height="20" fill="url(#s)"/>
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+        <text aria-hidden="true" x="212.5" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="325.0">build</text>
+        <text x="212.5" y="140" transform="scale(.1)" fill="#fff" textLength="325.0">build</text>
+        <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=success" target="_blank" rel="noopener">
+            <title>155 succeeded</title>
+            <text aria-hidden="true" x="897.5" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="845.0" data-status="succeeded">155 succeeded</text>
+            <text x="897.5" y="140" transform="scale(.1)" fill="#fff" textLength="845.0" data-status="succeeded">155 succeeded</text>
+        </a>
+        <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=fail" target="_blank" rel="noopener">
+            <title>23 failed</title>
+            <text aria-hidden="true" x="1792.5" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="585.0" data-status="failed">23 failed</text>
+            <text x="1792.5" y="140" transform="scale(.1)" fill="#fff" textLength="585.0" data-status="failed">23 failed</text>
+        </a>
+        <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=blocked" target="_blank" rel="noopener">
+            <title>9 blocked</title>
+            <text aria-hidden="true" x="2557.5" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="585.0" data-status="blocked">9 blocked</text>
+            <text x="2557.5" y="140" transform="scale(.1)" fill="#fff" textLength="585.0" data-status="blocked">9 blocked</text>
+        </a>
+        <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=wip" target="_blank" rel="noopener">
+            <title>31 building</title>
+            <text aria-hidden="true" x="3387.5" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="715.0" data-status="building">31 building</text>
+            <text x="3387.5" y="140" transform="scale(.1)" fill="#fff" textLength="715.0" data-status="building">31 building</text>
+        </a>
+        <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=inactive" target="_blank" rel="noopener">
+            <title>22 inactive</title>
+            <text aria-hidden="true" x="4282.5" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="715.0" data-status="inactive">22 inactive</text>
+            <text x="4282.5" y="140" transform="scale(.1)" fill="#fff" textLength="715.0" data-status="inactive">22 inactive</text>
+        </a>
+        <a href="http://gitexplorer.opensuse.org/projects/devel%3Alanguages%3Apython%3AFactory?status=success,fail,blocked,wip,inactive#monitor" target="_blank" rel="noopener">
+            <title>Not Final</title>
+            <text aria-hidden="true" x="5112.5" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="585.0" data-status="final">Not Final</text>
+            <text x="5112.5" y="140" transform="scale(.1)" fill="#fff" textLength="585.0" data-status="final">Not Final</text>
+        </a>
+    </g>
+
+    <!-- Auto-refresh script -->
+    <script type="text/javascript">
+        <![CDATA[
+        const PROJECT_NAME = 'devel:languages:python:Factory';
+        const BASE_HOST = 'gitexplorer.opensuse.org';
+        const API_PATH = '/api/projects/devel%3Alanguages%3Apython%3AFactory/_result';
+        // Use same protocol as the page embedding this SVG to avoid mixed content
+        const API_URL = (window.location.protocol || "https:") + "//" + BASE_HOST + API_PATH;
+        const REFRESH_INTERVAL = 30000; // 30 seconds
+
+        function updateBadge() {
+            fetch(API_URL)
+                .then(response => response.text())
+                .then(xmlText => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+                    const results = xmlDoc.querySelectorAll("result");
+
+                    // Count statuses
+                    const counts = {success: 0, fail: 0, blocked: 0, wip: 0, inactive: 0};
+                    let allFinal = true;
+
+                    results.forEach(result => {
+                        const repo = result.getAttribute("repository");
+
+                        // Skip repositories ending with _reproduciblecheck
+                        if (repo && repo.endsWith("_reproduciblecheck")) {
+                            return;
+                        }
+
+                        const dirty = result.getAttribute("dirty") === "true";
+                        const code = result.getAttribute("code");
+
+                        if (dirty || (code !== "published" && code !== "unpublished")) {
+                            allFinal = false;
+                        }
+
+                        const statuses = result.querySelectorAll("status");
+                        statuses.forEach(status => {
+                            const statusCode = status.getAttribute("code");
+                            const reproducibleCheck = status.getAttribute("reproduciblecheck");
+
+                            // Map status based on reproduciblecheck
+                            let finalStatus = statusCode;
+                            if (statusCode === "succeeded" && reproducibleCheck) {
+                                if (reproducibleCheck === "succeeded") {
+                                    finalStatus = "reproducible";
+                                } else if (reproducibleCheck === "failed") {
+                                    finalStatus = "unreproducible";
+                                } else if (["building", "scheduled", "dispatching", "signing", "finished"].includes(reproducibleCheck)) {
+                                    finalStatus = "verifying";
+                                }
+                            }
+
+                            const s = finalStatus.toLowerCase();
+
+                            // Check package status for non-final states
+                            const nonFinalStatuses = ["building", "scheduled", "dispatching", "signing", "finished", "blocked", "deleting", "verifying", "unreproducible"];
+                            if (nonFinalStatuses.includes(s)) {
+                                allFinal = false;
+                            }
+
+                            if (s === "reproducible" || s === "succeeded") {
+                                counts.success++;
+                            } else if (["failed", "unresolvable", "broken", "unreproducible"].includes(s)) {
+                                counts.fail++;
+                            } else if (s === "blocked") {
+                                counts.blocked++;
+                            } else if (["scheduled", "building", "dispatching", "signing", "verifying"].includes(s)) {
+                                counts.wip++;
+                            } else if (["disabled", "excluded"].includes(s)) {
+                                counts.inactive++;
+                            }
+                        });
+                    });
+
+                    // Update badge segments based on new counts
+                    const svg = document.querySelector("svg");
+
+                    // Update each segment by data-status attribute
+                    const updateSegment = (status, count) => {
+                        const texts = svg.querySelectorAll(`text[data-status="${status}"]`);
+                        if (texts.length === 0) return; // Segment not present
+
+                        const newText = count > 0 ? `${count} ${status}` : "";
+                        texts.forEach(text => {
+                            // Skip if this is the shadow text (aria-hidden)
+                            const isShadow = text.getAttribute("aria-hidden") === "true";
+                            text.textContent = newText;
+                        });
+                    };
+
+                    // Update success segment
+                    updateSegment("succeeded", counts.success);
+
+                    // Update fail segment
+                    updateSegment("failed", counts.fail);
+
+                    // Update blocked segment
+                    updateSegment("blocked", counts.blocked);
+
+                    // Update wip segment
+                    updateSegment("building", counts.wip);
+
+                    // Update final/not-final indicator if present
+                    const finalTexts = svg.querySelectorAll("text[data-status=\"final\"]");
+                    if (finalTexts.length > 0) {
+                        const newText = allFinal ? "Final" : "Not Final";
+                        finalTexts.forEach(text => {
+                            text.textContent = newText;
+                        });
+
+                        // Update final indicator color
+                        const finalRect = svg.querySelector("rect[data-status=\"final\"]");
+                        if (finalRect) {
+                            finalRect.setAttribute("fill", allFinal ? "#28a745" : "#007ec6");
+                        }
+                    }
+
+                    console.log("Badge updated:", counts, "Final:", allFinal);
+                })
+                .catch(err => console.error("Badge update failed:", err));
+        }
+
+        // Start auto-refresh
+        setInterval(updateBadge, REFRESH_INTERVAL);
+
+        // Update immediately when tab becomes visible again
+        document.addEventListener("visibilitychange", function() {
+            if (!document.hidden) {
+                console.log("Tab became visible, updating badge immediately");
+                updateBadge();
+            }
+        });
+        ]]>
+    </script>
+</svg>

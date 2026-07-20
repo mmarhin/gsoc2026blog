@@ -1,0 +1,104 @@
+<svg version="2.0" overflow="auto" width="40ex" height="99.5em" xmlns="http://www.w3.org/2000/svg"><defs>
+		</defs><text stroke="black" fill="black" x="1ex" y="2.5em">15.6</text><use href="#repotitle" y="3.5em"/><text stroke="black" fill="black" x="3ex" y="4.9em">x86_64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="6.9em">
+excluded: 2</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;failed=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="8.9em">
+failed: 12</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="10.9em">
+succeeded: 81</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_x86_64=1&amp;repo_15_6=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="12.9em">
+unresolvable: 47</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="15em">16.0</text><use href="#repotitle" y="16em"/><text stroke="black" fill="black" x="3ex" y="17.4em">x86_64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_x86_64=1&amp;repo_16_0=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="19.4em">
+excluded: 2</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;failed=1&amp;arch_x86_64=1&amp;repo_16_0=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="21.4em">
+failed: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_x86_64=1&amp;repo_16_0=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="23.4em">
+succeeded: 113</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_x86_64=1&amp;repo_16_0=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="25.4em">
+unresolvable: 23</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="27.5em">openSUSE_Factory_PowerPC</text><use href="#repotitle" y="28.5em"/><text stroke="black" fill="black" x="3ex" y="29.9em">ppc64le</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;building=1&amp;arch_ppc64le=1&amp;repo_openSUSE_Factory_PowerPC=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="31.9em">
+building: 1</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_ppc64le=1&amp;repo_openSUSE_Factory_PowerPC=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="33.9em">
+excluded: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;failed=1&amp;arch_ppc64le=1&amp;repo_openSUSE_Factory_PowerPC=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="35.9em">
+failed: 5</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_ppc64le=1&amp;repo_openSUSE_Factory_PowerPC=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="37.9em">
+succeeded: 132</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_ppc64le=1&amp;repo_openSUSE_Factory_PowerPC=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="39.9em">
+unresolvable: 1</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="42em">openSUSE_Factory_zSystems</text><use href="#repotitle" y="43em"/><text stroke="black" fill="black" x="3ex" y="44.4em">s390x</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;blocked=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="46.4em">
+blocked: 42</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;building=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="48.4em">
+building: 90</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="50.4em">
+excluded: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="52.4em">
+succeeded: 4</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_s390x=1&amp;repo_openSUSE_Factory_zSystems=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="54.4em">
+unresolvable: 3</text></a></g>
+<text stroke="black" fill="black" x="1ex" y="56.5em">openSUSE_Tumbleweed</text><use href="#repotitle" y="57.5em"/><text stroke="black" fill="black" x="3ex" y="58.9em">aarch64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_aarch64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="60.9em">
+excluded: 2</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;failed=1&amp;arch_aarch64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="62.9em">
+failed: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_aarch64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="64.9em">
+succeeded: 136</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_aarch64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="66.9em">
+unresolvable: 1</text></a></g>
+<use href="#repotitle" y="67.5em"/><text stroke="black" fill="black" x="3ex" y="68.9em">armv7l</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_armv7l=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="70.9em">
+excluded: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;failed=1&amp;arch_armv7l=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="72.9em">
+failed: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_armv7l=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="74.9em">
+succeeded: 135</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_armv7l=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="76.9em">
+unresolvable: 1</text></a></g>
+<use href="#repotitle" y="77.5em"/><text stroke="black" fill="black" x="3ex" y="78.9em">i586</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_i586=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="80.9em">
+excluded: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;failed=1&amp;arch_i586=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="82.9em">
+failed: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_i586=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="84.9em">
+succeeded: 134</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_i586=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="86.9em">
+unresolvable: 2</text></a></g>
+<use href="#repotitle" y="87.5em"/><text stroke="black" fill="black" x="3ex" y="88.9em">x86_64</text><g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;excluded=1&amp;arch_x86_64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="90.9em">
+excluded: 2</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;failed=1&amp;arch_x86_64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="92.9em">
+failed: 3</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;succeeded=1&amp;arch_x86_64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="94.9em">
+succeeded: 136</text></a></g>
+<g><a href="https://build.opensuse.org/project/monitor/devel:languages:python:pytest?defaults=0&amp;unresolvable=1&amp;arch_x86_64=1&amp;repo_openSUSE_Tumbleweed=1" target="_blank" rel="noopener">
+<text fill="#113" x="5ex" y="96.9em">
+unresolvable: 1</text></a></g>
+</svg>
