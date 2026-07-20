@@ -73,3 +73,62 @@ body {
   width: 20px;
   height: 20px;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #c9d1d9;
+    background-color: #0d1117;
+  }
+  .site-header {
+    background-color: #161b22;
+    border-top-color: #58a6ff;
+    border-bottom: 1px solid #30363d;
+  }
+  .site-title, .site-title:visited {
+    color: #f0f6fc !important;
+  }
+  .page-link, .page-link:visited {
+    color: #c9d1d9 !important;
+  }
+  .post-title {
+    color: #c9d1d9;
+  }
+  .post-list > li > p {
+    color: #8b949e;
+  }
+  a, .post-link {
+    color: #58a6ff;
+  }
+  a:visited {
+    color: #58a6ff;
+  }
+  .post-meta, .post-header h1 {
+    color: #8b949e;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #f0f6fc;
+  }
+  p, li, span, blockquote {
+    color: #c9d1d9;
+  }
+  strong, b {
+    color: #ffffff;
+  }
+  .gsoc-banner {
+    background: #21262d;
+    border-left-color: #e3b341;
+  }
+  .site-footer {
+    border-top: 1px solid #30363d;
+  }
+  table th, table td {
+    border: 1px solid #30363d;
+  }
+  hr {
+    border-top-color: #30363d;
+  }
+  // If there are code blocks
+  pre, code {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+  }
+}
