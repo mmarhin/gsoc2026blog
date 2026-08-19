@@ -1,0 +1,196 @@
+<svg version="2.0" overflow="auto" width="40ex" height="362.5em" xmlns="http://www.w3.org/2000/svg"><defs>
+    	<style>
+      		.success { fill: #efe; stroke: green; }
+      		.failed { fill: #fee; stroke: red; }
+      		.blocked { fill: #fbf; stroke: grey; }
+      		.broken { fill: #fff; stroke: grey; }
+      		.build { fill: #664; stroke: yellow; }
+    	</style>
+
+    	<g id="s">
+      		<rect class="success" width="15ex" height="1.5em" stroke-width="1" rx="5" />
+			<text x="2.5ex" y="1.1em">succeeded</text>
+    	</g>
+
+    	<g id="f">
+      		<rect class="failed" width="15ex" height="1.5em" stroke-width="1" rx="5" />
+      		<text x="5ex" y="1.1em">failed</text>
+    	</g>
+
+    	<g id="b">
+      		<rect class="blocked" width="15ex" height="1.5em" stroke-width="1" rx="5" />
+      		<text x="3.75ex" y="1.1em">blocked</text>
+    	</g>
+
+    	<g id="broken">
+      		<rect class="broken" width="15ex" height="1.5em" stroke-width="1" rx="5" />
+      		<text x="4.5ex" y="1.1em" stroke="red" fill="red">broken</text>
+    	</g>
+
+    	<g id="build">
+      		<rect class="build" width="15ex" height="1.5em" stroke-width="1" rx="5" />
+      		<text x="3.75ex" y="1.1em" fill="yellow">building</text>
+    	</g>
+
+    	<g id="u">
+      		<rect width="15ex" height="1.5em" stroke-width="1" stroke="yellow" fill="#555" rx="5" />
+      		<text x="2ex" y="1.1em" fill="orange">unresolvable</text>
+    	</g>
+
+    	<g id="scheduled">
+      		<rect width="15ex" height="1.5em" stroke-width="1" stroke="blue" fill="none" rx="5" />
+      		<text x="3ex" y="1.1em" stroke="none" fill="blue">scheduled</text>
+    	</g>
+
+    	<g id="d">
+      		<rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+      		<text x="4ex" y="1.1em" stroke="none" fill="grey">disabled</text>
+    	</g>
+
+    	<g id="e">
+      		<rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+      		<text x="4ex" y="1.1em" stroke="none" fill="#aaf">excluded</text>
+    	</g>
+
+    	<g id="un">
+      		<rect width="15ex" height="1.5em" stroke-width="1" stroke="grey" fill="none" rx="5" />
+      		<text x="4ex" y="1.1em" stroke="none" fill="grey">unknown</text>
+    	</g>
+
+    		<rect id="repotitle" width="100%" height="2em" stroke-width="1" stroke="grey" fill="grey" rx="2" />
+  		</defs><text stroke="black" fill="black" x="1ex" y="-0.5em">python313</text><use href="#repotitle" y="0.5em"/><text stroke="black" fill="black" x="3ex" y="1.9em">containerfile</text><text fill="#113" x="5ex" y="3.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313/containerfile/local" target="_blank" rel="noopener"><use href="#d" x="20ex" y="2.8em"/></a></g>
+<text fill="#113" x="5ex" y="5.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/containerfile/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="4.8em"/></a></g>
+<use href="#repotitle" y="6.5em"/><text stroke="black" fill="black" x="3ex" y="7.9em">images</text><text fill="#113" x="5ex" y="9.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313/images/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="8.8em"/></a></g>
+<text fill="#113" x="5ex" y="11.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313/images/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="10.8em"/></a></g>
+<text fill="#113" x="5ex" y="13.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/images/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="12.8em"/></a></g>
+<use href="#repotitle" y="14.5em"/><text stroke="black" fill="black" x="3ex" y="15.9em">mkosi</text><text fill="#113" x="5ex" y="17.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313/mkosi/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="16.8em"/></a></g>
+<text fill="#113" x="5ex" y="19.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/mkosi/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="18.8em"/></a></g>
+<use href="#repotitle" y="20.5em"/><text stroke="black" fill="black" x="3ex" y="21.9em">ports</text><text fill="#113" x="5ex" y="23.9em">aarch64</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/aarch64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="22.8em"/></a></g>
+<text fill="#113" x="5ex" y="25.9em">armv6l</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/armv6l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="24.8em"/></a></g>
+<text fill="#113" x="5ex" y="27.9em">armv7l</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/armv7l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="26.8em"/></a></g>
+<text fill="#113" x="5ex" y="29.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/i586" target="_blank" rel="noopener"><use href="#d" x="20ex" y="28.8em"/></a></g>
+<text fill="#113" x="5ex" y="31.9em">ppc</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/ppc" target="_blank" rel="noopener"><use href="#d" x="20ex" y="30.8em"/></a></g>
+<text fill="#113" x="5ex" y="33.9em">ppc64</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/ppc64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="32.8em"/></a></g>
+<text fill="#113" x="5ex" y="35.9em">ppc64le</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/ppc64le" target="_blank" rel="noopener"><use href="#d" x="20ex" y="34.8em"/></a></g>
+<text fill="#113" x="5ex" y="37.9em">riscv64</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/riscv64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="36.8em"/></a></g>
+<text fill="#113" x="5ex" y="39.9em">s390x</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/s390x" target="_blank" rel="noopener"><use href="#d" x="20ex" y="38.8em"/></a></g>
+<text fill="#113" x="5ex" y="41.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/ports/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="40.8em"/></a></g>
+<use href="#repotitle" y="42.5em"/><text stroke="black" fill="black" x="3ex" y="43.9em">product</text><text fill="#113" x="5ex" y="45.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313/product/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="44.8em"/></a></g>
+<text fill="#113" x="5ex" y="47.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313/product/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="46.8em"/></a></g>
+<text fill="#113" x="5ex" y="49.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/product/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="48.8em"/></a></g>
+<use href="#repotitle" y="50.5em"/><text stroke="black" fill="black" x="3ex" y="51.9em">product_nonfree</text><text fill="#113" x="5ex" y="53.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313/product_nonfree/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="52.8em"/></a></g>
+<text fill="#113" x="5ex" y="55.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313/product_nonfree/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="54.8em"/></a></g>
+<text fill="#113" x="5ex" y="57.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/product_nonfree/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="56.8em"/></a></g>
+<use href="#repotitle" y="58.5em"/><text stroke="black" fill="black" x="3ex" y="59.9em">snapshot</text><text fill="#113" x="5ex" y="61.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313/snapshot/i586" target="_blank" rel="noopener"><use href="#d" x="20ex" y="60.8em"/></a></g>
+<text fill="#113" x="5ex" y="63.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/snapshot/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="62.8em"/></a></g>
+<use href="#repotitle" y="64.5em"/><text stroke="black" fill="black" x="3ex" y="65.9em">standard</text><text fill="#113" x="5ex" y="67.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313/standard/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="66.8em"/></a></g>
+<text fill="#113" x="5ex" y="69.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313/standard/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="68.8em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="72em">python313:base</text><use href="#repotitle" y="73em"/><text stroke="black" fill="black" x="3ex" y="74.4em">containerfile</text><text fill="#113" x="5ex" y="76.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:base/containerfile/local" target="_blank" rel="noopener"><use href="#d" x="20ex" y="75.3em"/></a></g>
+<text fill="#113" x="5ex" y="78.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/containerfile/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="77.3em"/></a></g>
+<use href="#repotitle" y="79em"/><text stroke="black" fill="black" x="3ex" y="80.4em">images</text><text fill="#113" x="5ex" y="82.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:base/images/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="81.3em"/></a></g>
+<text fill="#113" x="5ex" y="84.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:base/images/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="83.3em"/></a></g>
+<text fill="#113" x="5ex" y="86.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/images/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="85.3em"/></a></g>
+<use href="#repotitle" y="87em"/><text stroke="black" fill="black" x="3ex" y="88.4em">mkosi</text><text fill="#113" x="5ex" y="90.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:base/mkosi/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="89.3em"/></a></g>
+<text fill="#113" x="5ex" y="92.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/mkosi/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="91.3em"/></a></g>
+<use href="#repotitle" y="93em"/><text stroke="black" fill="black" x="3ex" y="94.4em">ports</text><text fill="#113" x="5ex" y="96.4em">aarch64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/aarch64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="95.3em"/></a></g>
+<text fill="#113" x="5ex" y="98.4em">armv6l</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/armv6l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="97.3em"/></a></g>
+<text fill="#113" x="5ex" y="100.4em">armv7l</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/armv7l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="99.3em"/></a></g>
+<text fill="#113" x="5ex" y="102.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/i586" target="_blank" rel="noopener"><use href="#d" x="20ex" y="101.3em"/></a></g>
+<text fill="#113" x="5ex" y="104.4em">ppc</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/ppc" target="_blank" rel="noopener"><use href="#d" x="20ex" y="103.3em"/></a></g>
+<text fill="#113" x="5ex" y="106.4em">ppc64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/ppc64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="105.3em"/></a></g>
+<text fill="#113" x="5ex" y="108.4em">ppc64le</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/ppc64le" target="_blank" rel="noopener"><use href="#d" x="20ex" y="107.3em"/></a></g>
+<text fill="#113" x="5ex" y="110.4em">riscv64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/riscv64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="109.3em"/></a></g>
+<text fill="#113" x="5ex" y="112.4em">s390x</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/s390x" target="_blank" rel="noopener"><use href="#d" x="20ex" y="111.3em"/></a></g>
+<text fill="#113" x="5ex" y="114.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/ports/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="113.3em"/></a></g>
+<use href="#repotitle" y="115em"/><text stroke="black" fill="black" x="3ex" y="116.4em">product</text><text fill="#113" x="5ex" y="118.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:base/product/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="117.3em"/></a></g>
+<text fill="#113" x="5ex" y="120.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:base/product/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="119.3em"/></a></g>
+<text fill="#113" x="5ex" y="122.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/product/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="121.3em"/></a></g>
+<use href="#repotitle" y="123em"/><text stroke="black" fill="black" x="3ex" y="124.4em">product_nonfree</text><text fill="#113" x="5ex" y="126.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:base/product_nonfree/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="125.3em"/></a></g>
+<text fill="#113" x="5ex" y="128.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:base/product_nonfree/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="127.3em"/></a></g>
+<text fill="#113" x="5ex" y="130.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/product_nonfree/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="129.3em"/></a></g>
+<use href="#repotitle" y="131em"/><text stroke="black" fill="black" x="3ex" y="132.4em">snapshot</text><text fill="#113" x="5ex" y="134.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:base/snapshot/i586" target="_blank" rel="noopener"><use href="#d" x="20ex" y="133.3em"/></a></g>
+<text fill="#113" x="5ex" y="136.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/snapshot/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="135.3em"/></a></g>
+<use href="#repotitle" y="137em"/><text stroke="black" fill="black" x="3ex" y="138.4em">standard</text><text fill="#113" x="5ex" y="140.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:base/standard/i586" target="_blank" rel="noopener"><use href="#s" x="20ex" y="139.3em"/></a></g>
+<text fill="#113" x="5ex" y="142.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:base/standard/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="141.3em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="144.5em">python313:doc</text><use href="#repotitle" y="145.5em"/><text stroke="black" fill="black" x="3ex" y="146.9em">containerfile</text><text fill="#113" x="5ex" y="148.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/containerfile/local" target="_blank" rel="noopener"><use href="#d" x="20ex" y="147.8em"/></a></g>
+<text fill="#113" x="5ex" y="150.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/containerfile/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="149.8em"/></a></g>
+<use href="#repotitle" y="151.5em"/><text stroke="black" fill="black" x="3ex" y="152.9em">images</text><text fill="#113" x="5ex" y="154.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/images/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="153.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="156.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/images/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="155.8em"/></a></g>
+<text fill="#113" x="5ex" y="158.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/images/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="157.8em"/></a></g>
+<use href="#repotitle" y="159.5em"/><text stroke="black" fill="black" x="3ex" y="160.9em">mkosi</text><text fill="#113" x="5ex" y="162.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/mkosi/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="161.8em"/></a></g>
+<text fill="#113" x="5ex" y="164.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/mkosi/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="163.8em"/></a></g>
+<use href="#repotitle" y="165.5em"/><text stroke="black" fill="black" x="3ex" y="166.9em">ports</text><text fill="#113" x="5ex" y="168.9em">aarch64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/aarch64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="167.8em"/></a></g>
+<text fill="#113" x="5ex" y="170.9em">armv6l</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/armv6l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="169.8em"/></a></g>
+<text fill="#113" x="5ex" y="172.9em">armv7l</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/armv7l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="171.8em"/></a></g>
+<text fill="#113" x="5ex" y="174.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="173.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="176.9em">ppc</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/ppc" target="_blank" rel="noopener"><use href="#d" x="20ex" y="175.8em"/></a></g>
+<text fill="#113" x="5ex" y="178.9em">ppc64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/ppc64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="177.8em"/></a></g>
+<text fill="#113" x="5ex" y="180.9em">ppc64le</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/ppc64le" target="_blank" rel="noopener"><use href="#d" x="20ex" y="179.8em"/></a></g>
+<text fill="#113" x="5ex" y="182.9em">riscv64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/riscv64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="181.8em"/></a></g>
+<text fill="#113" x="5ex" y="184.9em">s390x</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/s390x" target="_blank" rel="noopener"><use href="#d" x="20ex" y="183.8em"/></a></g>
+<text fill="#113" x="5ex" y="186.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/ports/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="185.8em"/></a></g>
+<use href="#repotitle" y="187.5em"/><text stroke="black" fill="black" x="3ex" y="188.9em">product</text><text fill="#113" x="5ex" y="190.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/product/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="189.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="192.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/product/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="191.8em"/></a></g>
+<text fill="#113" x="5ex" y="194.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/product/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="193.8em"/></a></g>
+<use href="#repotitle" y="195.5em"/><text stroke="black" fill="black" x="3ex" y="196.9em">product_nonfree</text><text fill="#113" x="5ex" y="198.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/product_nonfree/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="197.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="200.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/product_nonfree/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="199.8em"/></a></g>
+<text fill="#113" x="5ex" y="202.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/product_nonfree/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="201.8em"/></a></g>
+<use href="#repotitle" y="203.5em"/><text stroke="black" fill="black" x="3ex" y="204.9em">snapshot</text><text fill="#113" x="5ex" y="206.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/snapshot/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="205.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="208.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/snapshot/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="207.8em"/></a></g>
+<use href="#repotitle" y="209.5em"/><text stroke="black" fill="black" x="3ex" y="210.9em">standard</text><text fill="#113" x="5ex" y="212.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/standard/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="211.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="214.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:doc/standard/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="213.8em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="217em">python313:nogil</text><use href="#repotitle" y="218em"/><text stroke="black" fill="black" x="3ex" y="219.4em">containerfile</text><text fill="#113" x="5ex" y="221.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/containerfile/local" target="_blank" rel="noopener"><use href="#d" x="20ex" y="220.3em"/></a></g>
+<text fill="#113" x="5ex" y="223.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/containerfile/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="222.3em"/></a></g>
+<use href="#repotitle" y="224em"/><text stroke="black" fill="black" x="3ex" y="225.4em">images</text><text fill="#113" x="5ex" y="227.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/images/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="226.3em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="229.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/images/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="228.3em"/></a></g>
+<text fill="#113" x="5ex" y="231.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/images/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="230.3em"/></a></g>
+<use href="#repotitle" y="232em"/><text stroke="black" fill="black" x="3ex" y="233.4em">mkosi</text><text fill="#113" x="5ex" y="235.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/mkosi/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="234.3em"/></a></g>
+<text fill="#113" x="5ex" y="237.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/mkosi/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="236.3em"/></a></g>
+<use href="#repotitle" y="238em"/><text stroke="black" fill="black" x="3ex" y="239.4em">ports</text><text fill="#113" x="5ex" y="241.4em">aarch64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/aarch64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="240.3em"/></a></g>
+<text fill="#113" x="5ex" y="243.4em">armv6l</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/armv6l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="242.3em"/></a></g>
+<text fill="#113" x="5ex" y="245.4em">armv7l</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/armv7l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="244.3em"/></a></g>
+<text fill="#113" x="5ex" y="247.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="246.3em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="249.4em">ppc</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/ppc" target="_blank" rel="noopener"><use href="#d" x="20ex" y="248.3em"/></a></g>
+<text fill="#113" x="5ex" y="251.4em">ppc64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/ppc64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="250.3em"/></a></g>
+<text fill="#113" x="5ex" y="253.4em">ppc64le</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/ppc64le" target="_blank" rel="noopener"><use href="#d" x="20ex" y="252.3em"/></a></g>
+<text fill="#113" x="5ex" y="255.4em">riscv64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/riscv64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="254.3em"/></a></g>
+<text fill="#113" x="5ex" y="257.4em">s390x</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/s390x" target="_blank" rel="noopener"><use href="#d" x="20ex" y="256.3em"/></a></g>
+<text fill="#113" x="5ex" y="259.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/ports/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="258.3em"/></a></g>
+<use href="#repotitle" y="260em"/><text stroke="black" fill="black" x="3ex" y="261.4em">product</text><text fill="#113" x="5ex" y="263.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/product/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="262.3em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="265.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/product/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="264.3em"/></a></g>
+<text fill="#113" x="5ex" y="267.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/product/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="266.3em"/></a></g>
+<use href="#repotitle" y="268em"/><text stroke="black" fill="black" x="3ex" y="269.4em">product_nonfree</text><text fill="#113" x="5ex" y="271.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/product_nonfree/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="270.3em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="273.4em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/product_nonfree/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="272.3em"/></a></g>
+<text fill="#113" x="5ex" y="275.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/product_nonfree/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="274.3em"/></a></g>
+<use href="#repotitle" y="276em"/><text stroke="black" fill="black" x="3ex" y="277.4em">snapshot</text><text fill="#113" x="5ex" y="279.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/snapshot/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="278.3em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="281.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/snapshot/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="280.3em"/></a></g>
+<use href="#repotitle" y="282em"/><text stroke="black" fill="black" x="3ex" y="283.4em">standard</text><text fill="#113" x="5ex" y="285.4em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/standard/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="284.3em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="287.4em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil/standard/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="286.3em"/></a></g>
+<text stroke="black" fill="black" x="1ex" y="289.5em">python313:nogil-base</text><use href="#repotitle" y="290.5em"/><text stroke="black" fill="black" x="3ex" y="291.9em">containerfile</text><text fill="#113" x="5ex" y="293.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/containerfile/local" target="_blank" rel="noopener"><use href="#d" x="20ex" y="292.8em"/></a></g>
+<text fill="#113" x="5ex" y="295.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/containerfile/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="294.8em"/></a></g>
+<use href="#repotitle" y="296.5em"/><text stroke="black" fill="black" x="3ex" y="297.9em">images</text><text fill="#113" x="5ex" y="299.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/images/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="298.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="301.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/images/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="300.8em"/></a></g>
+<text fill="#113" x="5ex" y="303.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/images/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="302.8em"/></a></g>
+<use href="#repotitle" y="304.5em"/><text stroke="black" fill="black" x="3ex" y="305.9em">mkosi</text><text fill="#113" x="5ex" y="307.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/mkosi/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="306.8em"/></a></g>
+<text fill="#113" x="5ex" y="309.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/mkosi/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="308.8em"/></a></g>
+<use href="#repotitle" y="310.5em"/><text stroke="black" fill="black" x="3ex" y="311.9em">ports</text><text fill="#113" x="5ex" y="313.9em">aarch64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/aarch64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="312.8em"/></a></g>
+<text fill="#113" x="5ex" y="315.9em">armv6l</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/armv6l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="314.8em"/></a></g>
+<text fill="#113" x="5ex" y="317.9em">armv7l</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/armv7l" target="_blank" rel="noopener"><use href="#d" x="20ex" y="316.8em"/></a></g>
+<text fill="#113" x="5ex" y="319.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="318.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="321.9em">ppc</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/ppc" target="_blank" rel="noopener"><use href="#d" x="20ex" y="320.8em"/></a></g>
+<text fill="#113" x="5ex" y="323.9em">ppc64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/ppc64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="322.8em"/></a></g>
+<text fill="#113" x="5ex" y="325.9em">ppc64le</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/ppc64le" target="_blank" rel="noopener"><use href="#d" x="20ex" y="324.8em"/></a></g>
+<text fill="#113" x="5ex" y="327.9em">riscv64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/riscv64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="326.8em"/></a></g>
+<text fill="#113" x="5ex" y="329.9em">s390x</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/s390x" target="_blank" rel="noopener"><use href="#d" x="20ex" y="328.8em"/></a></g>
+<text fill="#113" x="5ex" y="331.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/ports/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="330.8em"/></a></g>
+<use href="#repotitle" y="332.5em"/><text stroke="black" fill="black" x="3ex" y="333.9em">product</text><text fill="#113" x="5ex" y="335.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/product/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="334.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="337.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/product/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="336.8em"/></a></g>
+<text fill="#113" x="5ex" y="339.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/product/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="338.8em"/></a></g>
+<use href="#repotitle" y="340.5em"/><text stroke="black" fill="black" x="3ex" y="341.9em">product_nonfree</text><text fill="#113" x="5ex" y="343.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/product_nonfree/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="342.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="345.9em">local</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/product_nonfree/local" target="_blank" rel="noopener"><use href="#e" x="20ex" y="344.8em"/></a></g>
+<text fill="#113" x="5ex" y="347.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/product_nonfree/x86_64" target="_blank" rel="noopener"><use href="#e" x="20ex" y="346.8em"/></a></g>
+<use href="#repotitle" y="348.5em"/><text stroke="black" fill="black" x="3ex" y="349.9em">snapshot</text><text fill="#113" x="5ex" y="351.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/snapshot/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="350.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="353.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/snapshot/x86_64" target="_blank" rel="noopener"><use href="#d" x="20ex" y="352.8em"/></a></g>
+<use href="#repotitle" y="354.5em"/><text stroke="black" fill="black" x="3ex" y="355.9em">standard</text><text fill="#113" x="5ex" y="357.9em">i586</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/standard/i586" target="_blank" rel="noopener"><use href="#e" x="20ex" y="356.8em"/></a><title>package whitelist</title></g>
+<text fill="#113" x="5ex" y="359.9em">x86_64</text><g><a href="/buildlog/openSUSE:Factory/python313:nogil-base/standard/x86_64" target="_blank" rel="noopener"><use href="#s" x="20ex" y="358.8em"/></a></g>
+</svg>
