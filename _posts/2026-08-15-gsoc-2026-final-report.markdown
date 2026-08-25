@@ -108,11 +108,11 @@ During the program, I was invited to attend the **openSUSE Conference 2026 (oSC2
 
 ## 5. Current State & Future Work
 
-* **Current Status:** All primary milestones are completed and tested. The core SVG enhancements and fixes are currently under review in the [`svg_fixes` branch (PR #455)](https://src.opensuse.org/git-workflow/autogits/pulls/455), alongside the dynamic polling prototype (PR #487).
+* **Current Status:** All primary milestones are completed, tested, and **deployed in production on [`br.opensuse.org`](https://br.opensuse.org/)**, rendering live template-based SVG build status and repository matrices across openSUSE repositories. The consolidated enhancements are merged, alongside the dynamic polling prototype (PR #487).
 * **Next Steps:**
-  * Deploy the refactored service to production on `br.opensuse.org`.
-  * Extend real-time polling to project matrix and repository summary views.
+  * Extend real-time client-side polling to project matrix and repository summary views.
   * Integrate structured build status summaries into automated Gitea PR comment bots.
+  * Explore Log Detective integration for automated build failure triage in pull requests.
 
 ---
 
